@@ -1,8 +1,70 @@
-<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Дерево отрезков</title>
-<link rel="stylesheet" href="style.css">
-</head><body>
-<h1>Дерево отрезков</h1>
-<div class="content">
-<p>Полный конспект будет вставлен здесь...</p>
-</div>
-</body></html>
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Конспект по программированию 2025-2026</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/main.css">
+  <script defer src="scripts/interactive.js"></script>
+</head>
+<body class="light">
+  <header class="topbar">
+    <div class="container">
+      <h1 class="brand">Конспект по программированию <span class="muted">2025-2026</span></h1>
+      <div class="controls">
+        <a class="btn" href="segments-tree.html">Дерево отрезков</a>
+        <button id="themeToggle" class="btn outline">Тёмная тема</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container main">
+    <section class="hero">
+      <h2>Полный учебный материал по важным темам</h2>
+      <p>Нажмите на раздел ниже, чтобы открыть полную теорию и примеры.</p>
+
+      <nav class="toc">
+        <ul>
+          <li><a href="segments-tree.html" class="toc-link">Дерево отрезков</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <section class="features">
+      <article>
+        <h3>Адаптивность</h3>
+        <p>Сайт корректно отображается на телефоне и десктопе.</p>
+      </article>
+      <article>
+        <h3>Интерактивность</h3>
+        <p>Плавные переходы, подсветка кода, диаграммы и MathJax.</p>
+      </article>
+      <article>
+        <h3>Готово к PDF</h3>
+        <p>Markdown-ориентированная разметка и печатный стиль для получения PDF.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© Конспект по программированию 2025-2026</p>
+  </footer>
+
+  <!-- Highlight.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+
+  <!-- Mermaid -->
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({{ startOnLoad: true }});
+  </script>
+
+  <!-- MathJax -->
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script" async></script>
+</body>
+</html>
