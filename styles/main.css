@@ -1,0 +1,7 @@
+
+body { background:#111; color:#eee; font-family:Inter, sans-serif; padding:20px; }
+h1,h2 { color:#6cf; }
+.toc ul ul { margin-left:20px; }
+.back { color:#6cf; }
+.interactive-block { margin:20px 0; border:1px solid #333; padding:10px; }
+.interactive-block .content { display:none; }
